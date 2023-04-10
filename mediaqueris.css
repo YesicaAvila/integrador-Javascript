@@ -1,0 +1,496 @@
+@media (max-width: 1200px) {
+    header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        
+    }
+    #hero {
+        margin-top: 60px;
+        width: 100%;
+    }
+    .logo {
+        width: 50%;
+        padding: 10px 10px;
+    }
+    .iconos {
+        gap: 10px;
+        padding: 0px 10px;
+    }
+    #coleccion {
+        width: 100%;
+        padding: 5px;
+    }
+    .coleccion-i {
+        width: 100%;
+        
+    }
+}
+@media (max-width: 992px) {
+    header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        justify-content: space-between;
+       
+        
+
+    }
+    .logo {
+        width: 20%;
+        height: 80%;
+        padding: 0px 10px;
+    }
+    
+    .navbar {
+        gap: 50px;
+    }
+    .navbar-list {
+        position: absolute;
+        top: 80px;
+        left: 0%;
+        right: 5%;
+        width: 100%;
+        flex-direction: column;
+        background: black;
+        color: #fff;
+        border: 2px solid #4dbca7;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .2);
+        border-top: 0px;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+
+    }
+    .navbar-list a {
+        font-size: 16px;
+    }
+    .icono-menu {
+        display: flex;
+        cursor: pointer;
+        order: 2;
+        color: black;
+        
+    }
+   
+    .menu-label {
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+    .open-menu {
+        display: flex;
+    }
+    .navbar label:first-child > i {
+        display: flex;
+        font-size: 22px;
+        
+    }
+    #toggle-menu:checked + .navbar-list {
+        display: flex;
+    }
+    #hero {
+        width: 100%;
+        margin-top: 75px;
+    }
+    .hero-info {
+        width: 100%;
+        gap: 20px;
+    }
+    .hero-info h1 {
+        font-size: 50px;
+        width: 100px;
+        text-align: center;
+        width: 50%;
+
+    }
+    .hero-info p {
+        font-size: 20px;
+        width: 50%;
+        max-width: 600px;
+    }
+    .hero-info a {
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+    }
+    #about-us {
+        width: 90%;
+        
+    }
+    #about-us h3 {
+        text-align: center;
+
+    }
+    #about-us p {
+        width: 90%;
+        text-align: center;
+    }
+    #coleccion {
+        width: 100%;
+    }
+    .coleccion-i {
+        width: 100%;
+        
+    }
+    #prendas {
+        padding: 60px 30px;
+        width: 100%;
+    }
+    #prendas h2 {
+        text-align: center;
+    }
+    .botones {
+        flex-wrap: wrap;
+    }
+    .btn-mas {
+        font-size: 20px;
+    }
+    #info {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+    #info h2 {
+        font-size: 30px;
+    }
+    .info1 {
+        width: 80%;
+    }
+    .info1 span {
+        font-size: 20px;
+
+    }
+    #contacto {
+        width: 100%;
+        padding: 10px 10px;
+        
+    }
+    .contacto-container {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-link {
+        width: 100%;
+        gap: 50px;
+    }
+    .footer-link a {
+        align-items: center;
+        font-size: 20px;
+    }
+
+
+}
+
+@media (max-width:576px) {
+    header {
+        width: 100%;
+        z-index: 1;
+        position: fixed;
+        top: 0;
+    }
+
+    .logo {
+        width: 20%;
+        height: 50%;
+    }
+    .navbar {
+        gap: 5px;
+    }
+    .iconos {
+        
+        justify-content: space-around;
+        gap: 10px;
+    }
+    .perfil {
+        width: 80%;
+        
+    }
+    .carrito {
+        position: relative;
+    }
+    .cart-icon {
+        position: relative;
+        bottom: -9px;
+    }
+    .cart-bubble {
+        width: 50%;
+        height: 80%;
+        text-align: center;
+        font-size: 18px;
+        top: -9px;
+    }
+    .cart {
+        width: 100%;
+        /*  */
+        padding: 10px 60px;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-width: none;
+        
+    }
+    .cart-container {
+        gap: 10px;
+    }
+    .cart h3 {
+        font-size: 18px;
+    }
+    .cart-indum {
+        gap: 15px;
+        padding: 10px;
+    }
+    .cart-indum img {
+        width: 50%;
+    }
+    .cart-indum1 h3 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .item-price {
+        font-size: 13px;
+    }
+    .divider {
+        width: 100%;
+
+    }
+    .btn-buy {
+        width: 100%;
+    }
+    .btn-delete {
+        width: 100%;
+    }
+    #hero {
+        width: 100%;
+    }
+    #about-us {
+        width: 100%;
+    }
+    #about-us p {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 500;
+
+    }
+    #coleccion {
+        width: 100%;
+        padding: 10px 10px;
+    }
+    #coleccion h2 {
+        font-size: 30px;
+    }
+    .coleccion-i {
+        width: 100%;
+        height: 100%;
+    }
+    #prendas {
+        flex-wrap: wrap;
+        padding: 50px 10px;
+        max-width: none;
+        gap: 20px;
+    }
+    #prendas h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .botones {
+
+        flex-wrap: wrap;
+        gap: 12px;
+        width: 80%;
+    }
+    .categoria {
+        font-size: 20px;
+    }
+    .prendas-container {
+        width: 100%;
+    }
+    .prendas-1 {
+        width: 70%;
+    }
+    .prendas-1-info {
+        width: 100%;
+    }
+    .prendas-1-info h4 {
+        font-size: 18px;
+    }
+    .buzo-1 {
+        width: 70%;
+    }
+    #info {
+        width: 100%;
+        gap: 20px;
+
+    }
+    #info h2 {
+        font-size: 30px;
+
+    }
+    #contacto {
+        width: 100%;
+        max-width: none;
+        padding: 10px 10px;
+    }
+    #contacto h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .contacto-container {
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background: black;
+    }
+    .contacto-container label {
+        font-size: 17px;
+        color: #e3b8ea;
+        border-color: #e3b8ea; 
+    }
+    .contacto-container input {
+        width: 100%;
+        background: white;
+
+    }
+    .contacto-container textarea {
+        width: 100%;
+        background: white;
+    }
+    iframe {
+        width: 70%;
+        background: #e3b8ea;
+    }
+    .footer-link {
+        width: 100%;
+        justify-content: center;
+    }
+    .footer-link a {
+        width: 100%;
+        font-size: 15px;
+    }
+}
+@media (max-width:320px) {
+    header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        padding: 5px;
+        justify-content: space-around;
+    }
+    .logo {
+        width: 20%;
+        height: 50%;
+    }
+   .navbar {
+    gap: 5px;
+   }
+   .cart {
+    min-width: unset;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    gap: 10px;
+   }
+   .cart-container {
+    align-items: center;
+    
+   }
+   .cart-indum {
+    width: 100%;
+    gap: 5px;
+   }
+   .btn-buy {
+    width: 100%;
+    
+   }
+   .btn-delete {
+    width: 100%;
+
+   }
+   #hero {
+    width: 100%;
+   }
+   .hero-info {
+    width: 100%;
+   }
+   .hero-info h1 {
+    font-size: 35px;
+    text-align: center;
+   }
+   .hero-info p {
+    font-size: 18px;
+    font-weight: 500;
+   }
+   .hero-info a {
+    width: 50%;
+   }
+   #about-us {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   }
+   #about-us h3 {
+    font-size: 30px;
+   }
+   #about-us p {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+   }
+   #coleccion {
+    width: 100%;
+   }
+   .coleccion-i {
+    width: 100%;
+    height: 100%;
+   }
+   #prendas {
+    width: 100%;
+   }
+   .botones {
+    width: 100%;
+   }
+   .categoria {
+    font-size: 20px;
+   }
+   .prendas-container {
+    width: 100%;
+    gap: 15px;
+   }
+   .prendas-1 {
+    width: 80%;
+    
+   }
+   #info {
+    width: 100%;
+    padding-top: 30px;
+
+   }
+   #contacto {
+    width: 100%;
+   }
+   .contacto-container {
+    width: 100%;
+   }
+   iframe {
+    width: 70%;
+    height: 30%;
+
+   }
+   .footer-link {
+    width: 100%;
+   }
+   .footer-link a {
+    font-size: 15px;
+   }
+}   

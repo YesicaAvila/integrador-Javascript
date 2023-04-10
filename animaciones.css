@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 65px;
+}
+.overlay {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: none;
+}
+.show-overlay {
+    display: block;
+}
+.navbar-list li {
+    position: relative;
+    padding: 0;
+}
+.navbar-list li a::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.15s ease;
+}
+.navbar-list li a:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+.cart-icon {
+    transition: all 0.2s ease-out;
+}
+.cart-icon:hover {
+    color:black;
+    border-color: #fff;
+    transition: all 0.2s ease-in;
+
+}
+.quantity-handler {
+    transition: all .2s ease-in;
+}
+.quantity-handler:hover {
+    cursor: pointer;
+    background-color: #fff;
+    transition: all 0.2s ease-out;
+}
+.categoria:hover {
+    transition: all 0.2s ease-in;
+    background-color:black;
+    color: #e3b8ea;
+
+}
+.active:hover {
+    transition: all 0.2s ease-in;
+    background-color: #e3b8ea;
+    color: black;
+}
+.btn-add,
+.hero-info a {
+    transition: all 0.2s ease-out;
+}
+.btn-add:hover,
+.hero-info a:hover {
+    background-color: #81ecec;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.btn-mas {
+    transition: all 0.2s ease-out;
+    font-weight: 600;
+}
+.btn-mas:hover {
+    transition: all 0.2s ease-in;
+    background-color:#e3b8ea;
+    color: black;
+}

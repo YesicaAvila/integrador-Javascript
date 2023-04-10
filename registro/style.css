@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root {
+    --background: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: "Bebas Neue";
+}
+body {
+    background-image: url("./registro.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container {
+   width: 38%;
+   border-radius: 10px;
+   padding: 10px 10px;
+   margin-top: 100px;
+   box-shadow: -3px -3px 9px #aaa9a9a2, 3px 3px 7px rgba(147, 149, 151, 0.671);
+   background-color: rgba(255,255,255,0.13);
+   backdrop-filter: blur(5px);
+   
+}
+.login.container h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: rgb(247, 233, 233);
+
+}
+.register {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background: rgba(255,255,255,0.94); */
+}
+
+.register input {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    border: 1px solid rgba(255,255,255,0.438);
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Bebas Neue";
+    gap: 15px;
+}
+.register input::placeholder {
+    color: #e0d2d2a6;
+}
+.register input:nth-child(5) {
+    margin: 10px 0 0 0;
+    width: 50%;
+    height: 40%;
+    color: rgb(238, 226, 226);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgba(105, 105, 105, 0);
+    margin-top: 40px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    gap: 30px;
+}
+.register1 {
+    padding: 5px;
+    
+}
+.register1 h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.login-items button {
+    margin: 10px 0px;
+    padding: 10px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0,.2);
+    cursor: pointer;
+}
+.login-items .fb {
+    background-color: #3b5999;
+    color: #fff;
+    font-size: 20px;
+}
+.login-items .correo {
+    background: #d48133;
+    color: #fff;
+    font-size: 20px;
+}

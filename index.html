@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamour Indumentaria</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaqueris.css"/>
+    <link rel="stylesheet" href="./animaciones.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="./asset/Glamour-Logo.png" alt="logo" class="logo" />
+        <nav class="navbar">
+            <div class="menu-label">
+                <label for="toggle-menu"><i class="fas fa-bars icono-menu"></i></label>
+                <input type="checkbox" id="toggle-menu" />
+            </div>
+            
+            <ul class="navbar-list">
+                <li><a class="navbar-link" href="#hero">INICIO</a></li>
+                <li><a class="navbar-link" href="#about-us">NOSOTROS</a></li>
+                <li><a class="navbar-link" href="#coleccion">COLECCIÓN</a></li>
+                <li><a class="navbar-link" href="#contacto">CONTACTO</a></li>
+                <li><a class="navbar-link" href="#info">INFORMACIÓN</a></li>
+                
+            </ul>
+            <div class="iconos">
+                <a href="./login/index.html" ><img src="./asset/login.png" alt="Logo de perfil" class="perfil" /></a>
+                <div class="carrito">
+                    <i class="fa-solid fa-cart-shopping cart-icon">
+                        <div class="cart-bubble">0</div>
+                    </i>
+                </div>
+            </div>
+
+            <div class="cart">
+                <h3>Tu Lista de Compras:</h3>
+                <div class="cart-container">
+
+                </div>
+                <span class="divider"></span>
+                <div class="cart-total">
+                    <p>Total:</p>
+                    <span class="total"></span>
+                </div>
+                <button class="btn-buy">Comprar</button>
+                <button class="btn-delete">Vaciar carrito</button>
+            </div>
+
+            <div class="overlay"></div>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-info">
+                <h1>Dile adios al "No tengo que ponerme"</h1>
+                <p>Encontrá todo lo que buscas en nuestra página, invertí en vos sin culpa.</p>
+                <span>¿No estás registrado?</span>
+                <a href="./registro/index.html">Registrarme</a>
+            </div>
+                
+
+        </section>
+        <section id="about-us">
+            <h3>Nosotros:</h3>
+            <p>Somos una pagina de venta de indumentaria femenina, que brinda la mejor calidad de sus productos. 
+                Tenemos diferentes variedades y precios accesibles.
+                Contamos con servicios de entrega para su comodidad. Y diversos tipos de metodos de pago&#10084;
+            </p>
+
+        </section>
+        <!-- coleccion -->
+        <section id="coleccion">
+            <h2>COLECCIÓN VERANO:</h2>
+            <div class="coleccion-i">
+                <img src="./asset/coleccion.jpg" alt="coleccion" class="option-1">
+                <img src="./asset/coleccion.1.jpg" alt="coleccion-1" class="option-2">
+                <img src="./asset/coleccion.2.jpg" alt="coleccion-2" class="option-3">
+                <img src="./asset/coleccion.4.jpg" alt="coleccion-3" class="option-4">
+                <img src="./asset/coleccion.5.jpg" alt="coleccion-4" class="option-5">
+            </div>
+            
+        </section>
+        <hr/>
+        <!-- prendas -->
+        <section id="prendas">
+            <h2>INDUMENTARIA:</h2>
+            <div class="botones">
+                <button class="categoria active">Todas</button>
+                <button class="categoria" data-categoria="remeras">Remeras</button>
+                <button class="categoria" data-categoria="jeans">Jeans</button>
+                <button class="categoria" data-categoria="buzos">Buzos</button>
+                <button class="categoria" data-categoria="ofertas">Ofertas</button>
+               
+            </div>
+            <div class="prendas-container">
+                         
+            </div>
+            <button class="btn-mas">Ver más</button>
+        </section>
+
+        <hr/>
+        <section id="info">
+            <h2>INFORMACIÓN:</h2>
+            <div class="info1">
+                <div class="envio">
+                 <span class="material-icons">
+                    rocket_launch</span>
+                 <span>ENVIOS</span>
+                </div>
+                <div class="cash">
+                    <span class="material-icons">
+                        credit_card</span>
+                    <span>FINANCIACIÓN</span>
+                </div>
+                <div class="at-cliente">
+                    <span class="material-icons">
+                        info</span>
+                    <span>AT.CLIENTE</span>
+                </div>
+                <div class="devolucion">
+                    <span class="material-icons">
+                        wifi_protected_setup</span>
+                    <span>CAMBIOS Y DEVOLUCIONES</span>
+                </div>
+                
+            </div>
+            
+        </section>
+        <hr/>
+        <section id="contacto">
+            <h2>CONTACTO:</h2>
+            <div class="contacto-container">
+                <form action="">
+                    <div class="contacto-container-1">
+                        <label for="nombre-apellido">Nombre y Apellido : </label>
+                        <input type="text" placeholder="Nombre y Apellido" class="nombre-apellido" />
+                    </div>
+                    <div class="contacto-container-1">
+                        <label for="correo"> Correo : </label>
+                        <input type="text" placeholder="Correo" class="correo" />
+                    </div>
+                    <div class="contacto-container-1">
+                        <label for="texto">Mensaje : </label>
+                        <textarea name="texto" placeholder="Mensaje" rows="7" cols="40">
+
+                        </textarea>
+
+                    </div>
+                    <div class="contacto-container-1">
+                        <input type="submit" class="submit" value="Enviar" />
+                    </div>
+                </form>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13127.95055896757!2d-58.61294397788085!3d-34.65501508366668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1675901683655!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div>
+            <ul class="footer-link">
+                <li><a href="#">TÉRMINOS Y CONDICIONES</a></li>
+                <li><a href="#">SOPORTE</a></li>
+                <li><a href="#">AYUDA</a></li>
+            </ul>
+    </footer>
+    <div class="add-modal"></div>
+    <script src="./data.js"></script>
+    <script src="./index.js"></script>
+
+    
+    
+</body>
+</html>
+
+
+<!-- http://127.0.0.1:5500/integrador2/ -->
